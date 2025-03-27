@@ -7,9 +7,8 @@ import os
 
 # Load the trained model
 # Load the trained segmentation model
-MODEL_PATH = "C:/Users/Dell/Desktop/final2/resunet_model.h5"
-# Load without compilation
-# model = tf.keras.models.load_model(MODEL_PATH, compile=False)
+MODEL_PATH = "resunet_model.h5"
+
 model = tf.keras.models.load_model(MODEL_PATH,compile = False)
 
 # Constants
